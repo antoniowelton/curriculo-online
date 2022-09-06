@@ -248,6 +248,28 @@ p {
     border-radius: 50%;  
     box-shadow: 0px 2px 6px rgb(3, 40, 50);  
 }
+p.pdf {               
+    text-align: center;
+    max-width: 500px;  
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+}
+a.relatorio {
+    background-color: #081921;
+    font-size: 9px;        
+    text-decoration: none; 
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px; 
+    font-weight: bold;  
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.573);  
+}
+.pdf a:hover {
+    background-color: #03a9f4;
+    color: #081921;
+    font-weight: bolder;
+}
+
 
 
 
