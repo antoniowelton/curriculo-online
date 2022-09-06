@@ -165,6 +165,7 @@ a:hover {
 p {
     color: #333;
     text-indent: 20px;
+    text-align: justify;
 }
 
 .about .box {
@@ -235,6 +236,27 @@ p {
     margin: 10px;    
 }
 
+.about .social ul {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.about .social ul li{
+    list-style: none;             
+}
+.about .social img{
+    width: 20px;
+    border-radius: 50%;  
+    box-shadow: 0px 2px 6px rgb(3, 40, 50);  
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 800px) {
     .container {
         margin: 10px;
@@ -242,7 +264,7 @@ p {
     }
     .interest ul {
         grid-template-columns: repeat(2,1fr);
-    }
+    }    
 }
 
 @media (max-width: 500px) {
