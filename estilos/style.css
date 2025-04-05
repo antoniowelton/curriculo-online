@@ -123,6 +123,33 @@ a:hover {
     font-weight: 300;    
 }
 
+
+
+
+/* Configurando os dados da FORMAÇÃO*/
+
+.contactInfo.education > ul > li > h4.formacao:hover {
+    color: #6cd5ed;
+    transition-duration: .3s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.about .skills > .box > .percent:hover {
+    background-color: #63636373;
+    transition-duration: .5s;
+    border-radius: 5px;
+    
+}
+.about .skills > .box > .percent > div:hover {
+    background-color: #03961b;
+    transition-duration: .3s;    
+}
+
+
+
+
+
 .contactInfo.language .percent {
     position: relative;
     width: 100%;
@@ -238,19 +265,25 @@ p {
 
 .about .social ul {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(8,1fr);
 }
 .about .social ul li{
     list-style: none;             
 }
-.about .social img{
-    width: 20px;
+.about .social img{  /* Controla os icones das redes sociais*/
+    width: 30px;
     border-radius: 50%;  
-    box-shadow: 0px 2px 6px rgb(3, 40, 50);  
+    box-shadow: 2px 2px 4px rgba(3, 40, 50, 0.6);  
 }
+
+.about .social img:hover { /* Controla os icones das redes sociais com hover*/
+    box-shadow: 0px 0px 6px 2px rgb(8, 224, 231);
+}
+
 p.pdf {               
     text-align: center;
-    max-width: 500px;  
+    max-width: 500px; 
+    margin: 10px; 
     font-family: 'Courier New', Courier, monospace;
     height: 30px;
 }
@@ -258,15 +291,18 @@ a.relatorio {
     background-color: #081921;
     font-size: 9px;        
     text-decoration: none; 
-    padding: 5px;
-    margin-left: 10px;
+    text-align: center;
+    font-size: .8em;
+   padding: 10px 20px 10px 10px;
+    
     border-radius: 5px; 
     font-weight: bold;  
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.573);  
 }
 .pdf a:hover {
-    background-color: #03a9f4;
-    color: #081921;
+    background-color: #06805b;
+    color: #0d135e;
+    font-size: 1em;
     font-weight: bolder;
 }
 
